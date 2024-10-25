@@ -1,0 +1,261 @@
+2024-08-30T10:37:06.790227+0530 - ERROR - An error occurred while toggling archive status for note with ID 2 for user aniket1234@gmail.com: 'NotesViewSet' object has no attribute 'get_object'
+2024-08-30T10:40:07.586872+0530 - ERROR - An error occurred while toggling archive status for note with ID 2 for user aniket1234@gmail.com: No Note matches the given query.
+2024-08-30T10:41:26.256331+0530 - ERROR - Unexpected error while retrieving note: Field 'id' expected a number but got 'toggle_archive'.
+2024-08-30T10:42:41.684676+0530 - ERROR - An error occurred while toggling trash status for note with ID 1 for user aniket1234@gmail.com: RedisUtils.save() got an unexpected keyword argument 'ex'
+2024-08-30T10:45:28.002956+0530 - ERROR - An error occurred while toggling trash status for note with ID 1 for user aniket1234@gmail.com: RedisUtils.save() got an unexpected keyword argument 'ex'
+2024-08-30T10:45:31.865638+0530 - ERROR - An error occurred while toggling trash status for note with ID 1 for user aniket1234@gmail.com: RedisUtils.save() got an unexpected keyword argument 'ex'
+2024-08-30T10:47:15.391685+0530 - ERROR - Error saving data in Redis: DefaultClient.set() got an unexpected keyword argument 'expiry'
+2024-08-30T10:47:39.927817+0530 - ERROR - Unexpected error while retrieving note: Field 'id' expected a number but got 'toggle_trash'.
+2024-08-30T10:52:44.496580+0530 - ERROR - Unexpected error while retrieving note: 
+2024-08-30T11:36:22.571493+0530 - ERROR - Unexpected error while updating note: Note matching query does not exist.
+2024-09-05T10:31:11.591587+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-05T11:42:35.097953+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-05T11:42:43.958714+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-05T11:58:40.270532+0530 - ERROR - An error occurred while retrieving archived notes for user aniket555@gmail.com: 'str' object has no attribute 'get'
+2024-09-05T12:00:07.071561+0530 - ERROR - An error occurred while retrieving archived notes for user aniket555@gmail.com: 'str' object has no attribute 'get'
+2024-09-05T12:00:57.401397+0530 - ERROR - An error occurred while retrieving archived notes for user aniket555@gmail.com: 'str' object has no attribute 'get'
+2024-09-09T08:08:41.223614+0530 - ERROR - Unexpected error while creating note: {'labels': [ErrorDetail(string='Invalid pk "0" - object does not exist.', code='does_not_exist')]}
+2024-09-10T12:54:04.371852+0530 - ERROR - Unexpected error while updating note: {'labels': [ErrorDetail(string='Invalid pk "5" - object does not exist.', code='does_not_exist')]}
+2024-09-10T12:56:02.843787+0530 - ERROR - Unexpected error while updating note: {'labels': [ErrorDetail(string='Invalid pk "1" - object does not exist.', code='does_not_exist')]}
+2024-09-10T12:56:36.661357+0530 - ERROR - Unexpected error while updating note: null value in column "user_id" of relation "notes_note" violates not-null constraint
+DETAIL:  Failing row contains (24, aniket babar, i am student, brown, , t, t, 2024-09-10 07:23:06.559+00, null).
+
+2024-09-10T12:56:51.631354+0530 - ERROR - Unexpected error while updating note: null value in column "user_id" of relation "notes_note" violates not-null constraint
+DETAIL:  Failing row contains (25, aniket babar, i am student, brown, , t, t, 2024-09-10 07:23:06.559+00, null).
+
+2024-09-10T12:58:17.935717+0530 - ERROR - Unexpected error while updating note: {'labels': [ErrorDetail(string='Invalid pk "17" - object does not exist.', code='does_not_exist')]}
+2024-09-10T12:58:31.014356+0530 - ERROR - Unexpected error while updating note: null value in column "user_id" of relation "notes_note" violates not-null constraint
+DETAIL:  Failing row contains (26, aniket babar, i am student, brown, , t, t, 2024-09-10 07:23:06.559+00, null).
+
+2024-09-10T13:00:52.811047+0530 - ERROR - Unexpected error while updating note: null value in column "user_id" of relation "notes_note" violates not-null constraint
+DETAIL:  Failing row contains (27, aniket babar, i am student, brown, , t, t, 2024-09-10 07:23:06.559+00, null).
+
+2024-09-10T13:01:01.123281+0530 - ERROR - Unexpected error while updating note: null value in column "user_id" of relation "notes_note" violates not-null constraint
+DETAIL:  Failing row contains (28, aniket babar, i am student, brown, , t, t, 2024-09-10 07:23:06.559+00, null).
+
+2024-09-10T13:04:08.221266+0530 - ERROR - Unexpected error while updating note: null value in column "user_id" of relation "notes_note" violates not-null constraint
+DETAIL:  Failing row contains (29, aniket babar, i am student, brown, , t, t, 2024-09-10 07:23:06.559+00, null).
+
+2024-09-10T13:04:26.742300+0530 - ERROR - Unexpected error while updating note: {'labels': [ErrorDetail(string='Invalid pk "29" - object does not exist.', code='does_not_exist')]}
+2024-09-10T13:04:40.306269+0530 - ERROR - Unexpected error while updating note: null value in column "user_id" of relation "notes_note" violates not-null constraint
+DETAIL:  Failing row contains (30, aniket babar, i am student, brown, , t, t, 2024-09-10 07:23:06.559+00, null).
+
+2024-09-10T22:31:36.571170+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-10T22:34:31.790259+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-10T22:35:36.082253+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-10T22:35:37.189961+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-10T22:37:44.780869+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-10T22:37:46.175751+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-10T22:39:22.341334+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-10T22:39:23.521631+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T10:10:14.931906+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T10:10:16.247115+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T10:13:10.659023+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T10:13:11.554156+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T10:45:20.986110+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T10:45:22.911998+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T10:56:40.914854+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T10:56:42.721296+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T10:57:45.719887+0530 - ERROR - Unexpected error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T10:57:47.525060+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:12:14.298493+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:12:16.390535+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:14:18.745308+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:14:20.601660+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:18:13.824135+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:18:16.781856+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:19:21.001778+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:19:22.866251+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:21:12.044367+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:21:13.900860+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:24:40.461201+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:24:42.262727+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:25:22.416337+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:25:24.240166+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:25:58.984777+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:26:00.801547+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:28:52.624019+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:28:54.546329+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:31:53.090590+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:31:54.941139+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:32:15.515932+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:32:17.346798+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:35:27.511406+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:35:29.334408+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:35:33.112102+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:36:10.145570+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:36:12.177276+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:36:15.830231+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:37:12.993348+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:37:14.918409+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:37:18.566474+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:37:20.357197+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T11:40:54.451881+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:40:56.261535+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:40:59.929625+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:41:01.714368+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T11:42:18.576631+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:42:20.421259+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:42:24.109825+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:42:26.009894+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T11:42:26.929869+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T11:43:14.148110+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:43:16.019171+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:43:19.638253+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:43:21.471314+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:43:22.367091+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:44:20.278725+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:44:22.217297+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:44:26.219567+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:44:28.261669+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:44:29.196356+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:47:33.936350+0530 - ERROR - Unexpected error: No Label matches the given query.
+2024-09-11T11:48:19.763546+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:49:56.489162+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:49:58.419971+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:51:57.149819+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:51:59.097283+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:54:27.481907+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:54:29.382378+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:56:41.599863+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:56:43.385324+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:56:58.187653+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:57:00.203968+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:57:39.304298+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:57:41.366329+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:57:45.491470+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T11:57:47.953917+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:57:49.500909+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:57:52.369084+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T11:57:54.738210+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T15:58:18.080529+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T15:58:19.901087+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T15:58:23.590634+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T15:58:25.476323+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T15:58:26.373699+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T15:58:28.171288+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T15:58:29.953301+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-11T22:43:27.973752+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T22:44:14.831423+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T22:45:56.712567+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-11T22:45:57.728361+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T00:40:48.359296+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T00:40:50.406911+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T00:40:54.658361+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T00:40:56.702478+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T00:40:57.925821+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T00:41:00.515969+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T00:41:03.026774+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T00:41:05.615242+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T00:41:06.640442+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T00:41:42.357578+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T00:41:44.033247+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T00:42:04.928016+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T00:42:06.030526+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T00:42:07.128259+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-09-12T00:58:39.367112+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T00:58:40.594782+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T09:44:22.098444+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T09:44:23.112107+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T09:44:24.122453+0530 - ERROR - Unexpected error while updating note: Field 'id' expected a number but got 'None'.
+2024-09-12T09:51:11.246143+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T09:51:12.328505+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T09:51:13.396582+0530 - ERROR - Error updating note with ID None: Field 'id' expected a number but got 'None'.
+2024-09-12T09:54:14.474103+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T09:54:15.420727+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T09:56:07.298042+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T09:56:08.241012+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T09:56:09.273420+0530 - ERROR - Unexpected error while deleting note: Field 'id' expected a number but got 'None'.
+2024-09-12T09:58:02.175756+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T09:58:03.120819+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T09:59:30.403101+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T09:59:31.420854+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T09:59:32.378339+0530 - ERROR - Unexpected error while deleting note: Field 'id' expected a number but got 'None'.
+2024-09-12T10:11:34.228831+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:11:35.185850+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T10:11:36.159883+0530 - ERROR - Unexpected error while deleting note: Field 'id' expected a number but got 'None'.
+2024-09-12T10:14:17.156168+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:14:18.087249+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T10:14:50.244103+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:14:51.201505+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T10:27:10.244665+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:27:12.169046+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:27:16.145882+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:27:18.081137+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:27:19.018892+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:27:20.976075+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:27:22.881733+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:48:50.065855+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:48:52.145314+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:48:56.468850+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:48:59.214150+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:49:00.493339+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:49:02.867559+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:49:04.898159+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:57:57.134157+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:57:59.297244+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:58:03.458090+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:58:05.412908+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:58:06.386980+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:58:08.363517+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:58:10.242343+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T10:58:13.313502+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-09-12T10:58:16.301569+0530 - ERROR - Error updating note with ID 2: 'NotesViewSet' object has no attribute 'sechdule_reminder'
+2024-09-12T10:58:24.149365+0530 - ERROR - Unexpected error while deleting note: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-09-12T10:58:25.605297+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T10:58:30.452903+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field is required.', code='required')]}
+2024-09-12T10:58:31.425838+0530 - ERROR - Unexpected error while retrieving note: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-09-12T10:58:32.421711+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T11:03:00.703845+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T11:03:02.592149+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:03:06.500682+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T11:03:08.371172+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:03:09.367341+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:03:11.251952+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:03:13.154513+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:03:21.955358+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T11:03:26.727492+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field is required.', code='required')]}
+2024-09-12T11:03:27.660382+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T11:05:27.121940+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T11:05:29.026266+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:05:32.870864+0530 - ERROR - Validation error: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T11:05:34.753744+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:05:35.705004+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:05:37.660511+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:05:39.546557+0530 - WARNING - Label not found: No Label matches the given query.
+2024-09-12T11:05:43.482579+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T11:05:44.433863+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field is required.', code='required')]}
+2024-09-12T11:05:45.396070+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T11:11:45.755258+0530 - ERROR - An error occurred while retrieving archived notes for user aniket2659@gmail.com: 'str' object has no attribute 'get'
+2024-09-12T11:12:22.123780+0530 - ERROR - Error saving data in Redis: DefaultClient.set() got an unexpected keyword argument 'expiry'
+2024-09-12T12:17:10.905957+0530 - ERROR - Error saving data in Redis: DefaultClient.set() got an unexpected keyword argument 'expiry'
+2024-09-12T12:18:20.970189+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-09-12T12:18:21.996168+0530 - ERROR - Error saving data in Redis: DefaultClient.set() got an unexpected keyword argument 'expiry'
+2024-09-12T12:18:24.819767+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+2024-09-12T12:18:25.744447+0530 - ERROR - Unexpected error while creating note: {'title': [ErrorDetail(string='This field is required.', code='required')]}
+2024-09-12T12:18:26.657684+0530 - ERROR - Unexpected error while creating note: {'reminder': [ErrorDetail(string='Datetime has wrong format. Use one of these formats instead: YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z].', code='invalid')]}
+2024-09-12T12:20:37.405973+0530 - ERROR - An error occurred while retrieving archived notes for user aniket2659@gmail.com: 'str' object has no attribute 'get'
+2024-09-12T12:22:00.878949+0530 - ERROR - Error updating note with ID 1: 'NotesViewSet' object has no attribute 'sechdule_reminder'
+2024-09-12T12:23:04.155555+0530 - ERROR - Error updating note with ID 1: 'NotesViewSet' object has no attribute 'sechdule_reminder'
+2024-09-12T12:24:06.383174+0530 - ERROR - Error updating note with ID 1: 'NotesViewSet' object has no attribute 'sechdule_reminder'
+2024-09-12T12:27:06.820220+0530 - ERROR - An error occurred while toggling trash status for note with ID 1 for user aniket2659@gmail.com: string indices must be integers, not 'str'
+2024-09-12T20:18:58.044181+0530 - ERROR - Exception: 'name'
+2024-09-12T20:18:58.045987+0530 - ERROR - Unexpected error: 'name'
+2024-09-12T20:19:09.343947+0530 - ERROR - Exception: 'name'
+2024-09-12T20:19:09.343947+0530 - ERROR - Unexpected error: 'name'
+2024-09-12T20:19:10.763487+0530 - ERROR - Exception: 'name'
+2024-09-12T20:19:10.763487+0530 - ERROR - Unexpected error: 'name'
+2024-09-12T20:19:11.770531+0530 - ERROR - Exception: 'name'
+2024-09-12T20:19:11.770531+0530 - ERROR - Unexpected error: 'name'
+2024-09-12T20:19:22.980302+0530 - ERROR - Exception: 'name'
+2024-09-12T20:19:22.981341+0530 - ERROR - Unexpected error: 'name'
+2024-10-06T15:04:04.967444+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:04:17.151107+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:17:55.678083+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:17:58.791474+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:17:59.924962+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:19:08.114408+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:24:10.997427+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:24:13.800603+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:24:14.591108+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
+2024-10-06T15:24:15.182088+0530 - ERROR - Unexpected error while fetching notes: Unsupported lookup 'user' for ForeignKey or join on the field not permitted.
